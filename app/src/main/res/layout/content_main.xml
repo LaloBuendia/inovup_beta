@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.edbuendi.inovup_beta.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:clickable="false"
+    android:background="#ffffff">
+
+    <ImageButton
+
+        android:id="@+id/imageButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/rojo"
+        android:clickable="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageButton7"
+
+
+        android:background="@drawable/azul"
+        android:layout_marginLeft="62dp"
+        android:layout_marginStart="58dp"
+        android:layout_alignTop="@+id/imageButton8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageButton8"
+
+        android:background="@drawable/amarillo"
+        android:layout_alignTop="@+id/imageButton"
+
+        android:layout_toEndOf="@+id/imageButton7"
+        android:layout_marginLeft="13dp"
+
+        android:layout_marginTop="65dp" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageButton9"
+
+        android:background="@drawable/naranja"
+        android:layout_below="@+id/imageButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="32dp" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageButton10"
+        android:background="@drawable/verde"
+        android:layout_alignTop="@+id/imageButton9"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-6dp"
+        android:layout_marginRight="7dp"/>
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageButton11"
+        android:background="@drawable/morado"
+        android:layout_marginTop="232dp"
+        android:layout_alignStart="@+id/imageButton" />
+
+
+</RelativeLayout>
